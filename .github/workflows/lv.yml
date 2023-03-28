@@ -16,7 +16,7 @@ jobs:
       - name: Labs Validator
         uses: safestack-hq/labs-action@v0.0.5
         with:
-          command: "webconfig"
+          command: "webconfig-easy"
         env:
           LABS_AUTH: '${{secrets.LABS_AUTH}}'
 
